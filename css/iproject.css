@@ -1,0 +1,203 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+body{
+	font-family: "Montserrat";
+	font-weight: 500;
+}
+h1{
+	color: #fff;
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 3.5rem;
+}
+
+#title{
+	background-color: #85a392;
+}
+
+.title-image{
+	
+	border: solid #fff 10px;
+	
+}
+
+.logo{
+	width: 5%;
+	margin-right: 5px;
+	border: hidden;
+	border-radius: 100%;
+}
+
+.img1{position: absolute;
+width: 95%;
+transform: rotate(10deg);
+}
+
+.img2{position: absolute;
+   width: 99%;
+   transform: rotate(-35deg);
+   left: 250px;
+   
+}
+
+.img3{position: absolute;
+  width: 99%;
+  transform: rotate(25deg);
+  left: 200px;
+}
+
+hr{ 
+	color: gray;
+}
+
+/*Container*/
+.container-fluid{
+	padding: 0;
+}
+
+.row{
+	padding: 40px;
+}
+
+
+
+
+
+/*navbar*/
+.navbar{position: relative;
+	z-index: 1;
+  padding: 20px 20px 20px 40px;
+
+}
+.navbar-brand{
+	font-size: 1.5rem;
+	font-weight: 700; 
+}
+
+/*Features*/
+#features{
+	background-color: #fff;
+	text-align: center;
+	color: black;
+	position: relative;
+	z-index: 1;
+}
+
+
+#features .row{
+	padding: 200px 40px 200px 40px;
+}
+
+.feature-title{
+	margin-top: 20px;
+	font-weight: 800;
+}
+
+.feature-p{
+	padding: 15px 40px;
+}
+
+.icon{
+	color: #85a392;
+}
+
+#gallery{
+	background-color: #85a392; 
+}
+.gallery-image{
+ 
+	width: 100%;
+	padding: 100px;
+	text-align: center;
+}
+
+
+/*Pricing*/
+#pricing{
+	text-align: center;
+	background-color: #fff;
+}
+
+
+#pricing .row{
+	margin: 50px;
+}
+.pricing-heading{
+	margin-bottom: 40px;
+	margin-top: 80px;
+	font-family: "Montserrat";
+	font-weight: 900;
+}
+.ptype{
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+.price-text,.sheading{
+	color: gray;
+}
+
+.pricing-column{
+	padding: 3% 2%;
+}
+
+
+/*Contact*/
+#contact{
+	text-align: center;
+	background-color: #85a392;
+	color: #fff;
+	padding: 100px 0;
+	
+}
+
+#contact .btn{
+	font-family: "Montserrat";
+	font-weight: 700;
+	padding: 15px 30px;
+	color: white;
+	margin: 50px 20px;
+}
+.contact-heading{
+	font-size: 3.5rem;
+	font-family: "Montserrat";
+	font-weight: 900;
+}
+
+
+
+
+
+/*Foooter*/
+
+#footer{
+	background-color: #fff;
+	text-align: center;
+	margin: 90px 0;
+}
+.ficon{
+ 	color: gray;
+ 	margin-left: 30px;
+ 	margin-bottom: 40px;
+
+ }
+.ficon:hover{
+	color: #85a392;
+}
+ .pfooter{
+ 	font-family: "Montserrat";
+ 	font-weight: 600;
+ 	font-size: 1.5rem;
+ }
+
+
+ @media (max-width: 991px){
+#title{
+	text-align: center;
+}
+	.title-image{
+		position: static;
+		transform: rotate(0deg);
+	}
+}
